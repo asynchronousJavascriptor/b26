@@ -22,3 +22,5 @@ radio
 range
 file
 submit
+
+hr, form repeat, div, id, class ✅
