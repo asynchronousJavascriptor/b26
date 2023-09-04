@@ -24,3 +24,14 @@ file
 submit
 
 hr, form repeat, div, id, class ✅
+
+
+center pe ek h1 chahiye
+h1 ko style kariye 
+
+black -> white
+font -> gilroy
+fsize -> 60-70px
+fweight - 600
+letter spacing -> 30px
+texttransform -> uppercase 
