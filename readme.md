@@ -34,4 +34,3 @@ font -> gilroy
 fsize -> 60-70px
 fweight - 600
 letter spacing -> 30px
-texttransform -> uppercase 
