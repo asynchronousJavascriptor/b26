@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Gilroy";
 }
 
 html,body{
@@ -9,24 +10,44 @@ html,body{
     height: 100%;
 }
 
-#nav{
+#box{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
     width: 100%;
-    height: 40px;
-    background-color: #111;
+    height: 100%;
+    background-color: #f3f3f3;
 }
 
-#nav a{
+#left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(./watch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#left img{
+    width: 25%;
+    margin-top: 60px;
+}
+
+#left h4{
+    margin: 20px 0;
     text-transform: capitalize;
-    text-decoration: none;
-    font-family: "Gilroy";
-    color: #fff;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
-#nav i{
-    color: #fff;
+#left h5{
+    text-transform: capitalize;
+    font-weight: 700;
+    opacity: .5;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    background-color: #f3f3f3;
 }
