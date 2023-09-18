@@ -28,26 +28,56 @@ html,body{
     background-position: center;
 }
 
-#left img{
-    width: 25%;
-    margin-top: 60px;
+.elem img{
+    width: 20%;
+    margin-top: 40px;
 }
 
-#left h4{
-    margin: 20px 0;
+.elem h2{
     text-transform: capitalize;
     font-weight: 500;
+    margin: 10px 0;
     font-size: 20px;
 }
 
-#left h5{
-    text-transform: capitalize;
-    font-weight: 700;
+.elem h3{
+    font-weight: 600;
     opacity: .5;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.elem .links{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    color: royalblue;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
 }
 
 #right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 50%;
     height: 100%;
-    background-color: #f3f3f3;
+    background-image: url(./carbon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#right img{
+    width: 35%;
+}
+
+#right h2{
+    text-align: center;
 }
