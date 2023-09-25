@@ -77,3 +77,89 @@ html,body{
     font-size: 12px;
     font-weight: 700;
 }
+
+#textcenter{
+    height: 35%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#textcenter h1{
+    line-height: 1;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+#textcenter p{
+    font-weight: 600;
+    margin: 20px auto;
+    width: 30%;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 30px 40px;
+    width: 100%;
+    height: calc(100% - (35% + 140px));
+}
+
+#footer .card{
+    border-radius: 20px;
+    width: 19%;
+    height: 100%;
+    background-color: red;
+}
+
+#footer .card:nth-child(2){
+    height: 80%;
+}
+
+#footer .card:nth-child(3){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: transparent;
+}
+
+#footer .card:nth-child(3) .btn{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ededed;
+}
+
+#footer .card:nth-child(3) .btn button{
+    padding: 12px 22px;
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+}
+
+#footer .card:nth-child(3) .btn p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#footer .card:nth-child(3) .btn{
+    text-align: center;
+}
+
+#footer .card:nth-child(3) .dets{
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(208, 228, 208);
+}
+
+#footer .card:nth-child(4){
+    height: 80%;
+}
