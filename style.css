@@ -111,6 +111,59 @@ html,body{
     height: 100%;
 }
 
+#footer .col:nth-child(1){
+    padding: 20px;
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+}
+
+#footer .col:nth-child(1) h5{
+    opacity: .4;
+    font-weight: 500;
+}
+
+#footer .col:nth-child(1) h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#footer .col:nth-child(1) .dates{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 56, 56);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#footer .col:nth-child(1) .dates .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+#footer .col:nth-child(1) .dates .date{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc((80% / 3) - 5px);
+}
+
+#footer .col:nth-child(1) .dates .date h4{
+    opacity: .7;
+}
+
+#footer .col:nth-child(1) .dates .date h2{
+    opacity: .7;
+}
+
+#footer .col:nth-child(1) .dates .selected{
+    background-color: rgb(96, 96, 96);
+    border-radius: 10px;
+}
+
 #footer .col:nth-child(2){
     height: 70%;
     background-image: url(https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2592&q=80);
@@ -127,7 +180,72 @@ html,body{
 }
 
 #footer .col:nth-child(4){
+    padding: 12px;
+    background-color: rgb(191, 159, 223);
     height: 70%;
+}
+
+#footer .col:nth-child(4) .row1{
+    display: flex;
+    align-items: center;
+}
+
+#footer .col:nth-child(4) .row1 .image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664541336896-b3d5f7dec9a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#footer .col:nth-child(4) .row1 h2{
+    margin-left: 10px;
+}
+
+#footer .col:nth-child(4) h4{
+    margin-top: 10px;
+    opacity: .7;
+}
+
+#footer .col:nth-child(4) .row1 h5{
+    opacity: .4;
+    margin-bottom: -5px;
+    margin-left: 5px;  
+}
+
+#footer .col:nth-child(4) .tile{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(37, 28, 46);
+    border-radius: 10px;
+}
+
+#footer .col:nth-child(4) .tile .text{
+    color: #fff;
+}
+
+#footer .col:nth-child(4) .tile .text h5{
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.text h5 i{
+    opacity: .2;
+}
+
+#footer .col:nth-child(4) .tile .badge{
+    border-radius: 15px;
+    padding: 8px 17px;
+    background-color: rgb(194, 227, 206);
+}
+
+.badge h3{
+    font-size: 20px;
+    font-weight: 900;
 }
 
 #footer .col:nth-child(5){
