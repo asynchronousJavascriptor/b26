@@ -148,11 +148,12 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: calc((80% / 3) - 5px);
+    width: calc(80% / 3);
 }
 
 #footer .col:nth-child(1) .dates .date h4{
     opacity: .7;
+    font-size: 12px;
 }
 
 #footer .col:nth-child(1) .dates .date h2{
@@ -162,6 +163,40 @@ html,body{
 #footer .col:nth-child(1) .dates .selected{
     background-color: rgb(96, 96, 96);
     border-radius: 10px;
+}
+
+.tasks{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tasks .task{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.task .marking{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 75%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #000;
+    background-color: rgb(218, 233, 218);
+}
+
+.task .marking .check{
+    padding: .7px 1.3px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.marking h5{
+    opacity: .7 !important;
+    font-weight: 800 !important;
 }
 
 #footer .col:nth-child(2){
